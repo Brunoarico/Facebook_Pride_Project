@@ -5,10 +5,10 @@ var app = require("./app.js");
 require("greenlock-express")
     .init({
         packageRoot: __dirname,
-        configDir: "./greenlock.d",
+        configDir: ".",
 
         // contact for security and critical bug notices
-        maintainerEmail: "bruno.carneiro@gutorequena.com.br",
+        maintainerEmail: "",
 
         // whether or not to run at cloudscale
         cluster: false
